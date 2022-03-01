@@ -1,0 +1,20 @@
+.tns-outer {    
+    position: relative;
+}
+
+.tns-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+    width: 100%;
+}
+
+.tns-controls button {
+    background: #fff;
+    border: 1px solid black;
+    margin-right: 1rem;
+    padding: .5rem 1rem;
+}
