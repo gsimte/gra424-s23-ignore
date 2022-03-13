@@ -95,8 +95,6 @@ body {
 
 
 
-
-
   img {
     max-width: 100%;
   }
@@ -113,4 +111,14 @@ body {
       padding: 3rem;
       width: 50%;
     }
+  }
+
+
+
+  .footer-box {
+    position: bottom;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: rgba(223, 207, 196, 1);
+    color: black;
   }
