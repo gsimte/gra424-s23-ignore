@@ -1,5 +1,62 @@
+header {
+  background-image: url('https://images.pexels.com/photos/4226806/pexels-photo-4226806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  height: 75vh;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+  position: relative;
+  justify-content: center;
+}
+
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+.header-bar {
+  width: 100%;
+  padding: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color:rgba(223, 207, 196, 1);
+}
+
+.menu-box {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 55px;
+}
+
+
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15pt;
+  padding-bottom: 1rem;
+}
+
+div {
+  font-family: 'Martel', serif;
+  font-weight: 100;
+  font-size: 10pt;
+}
+
 body {
     padding: 3rem;
+    background-color: rgba(252, 241, 229, 1);
+    margin-left: 200px;
+    margin-right: 200px;
   }
   .list li {
     display: flex;
@@ -30,4 +87,30 @@ body {
   }
   .price {
     padding: 0 .5rem;
+  }
+
+  .location-text {
+    position: right;
+  }
+
+
+
+
+
+  img {
+    max-width: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .two-column {
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 3rem;
+    }
+    .column {
+      padding: 3rem;
+      width: 50%;
+    }
   }
