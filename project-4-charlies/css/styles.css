@@ -5,7 +5,6 @@ header {
   text-align: center;
   height: 75vh;
   margin-bottom: 50px;
-  margin-top: 50px;
 }
 
 h1 {
@@ -21,13 +20,28 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 20pt;
+  margin-left: 14rem;
 }
+
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15pt;
+  padding-bottom: 3rem;
+}
+
+
+li {
+  margin-right: 3rem;
+}
+
 
 .header-bar {
   width: 100%;
   padding: 0.25rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   background-color:rgba(223, 207, 196, 1);
 }
 
@@ -35,16 +49,10 @@ h2 {
   background-color: rgba(255, 255, 255, 1);
   padding: 2rem 2rem 1rem 2rem;
   border-radius: 55px;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
-
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 15pt;
-  padding-bottom: 1rem;
-}
 
 div {
   font-family: 'Martel', serif;
@@ -53,28 +61,23 @@ div {
 }
 
 body {
-    padding: 3rem;
     background-color: rgba(252, 241, 229, 1);
-    margin-left: 200px;
-    margin-right: 200px;
   }
+
+
   .list li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
+
+
   .product {
     flex: 1;
     position: relative;
   }
-  .product::after {
-    border-bottom: 2px dotted #999;
-    content: '';
-    position: fixed;
-    top: .7rem;
-    width: 85%;
-    z-index: 0;
-  }
+
+
   .product h4 {
     background: #fff;
     display: inline-block;
@@ -82,9 +85,13 @@ body {
     position: relative;
     z-index: 1;
   }
+
+
   .prices {
     display: flex;
   }
+
+
   .price {
     padding: 0 .5rem;
   }
@@ -92,7 +99,6 @@ body {
   .location-text {
     position: right;
   }
-
 
 
   img {
@@ -107,13 +113,12 @@ body {
       margin: 0 auto;
       padding: 3rem;
     }
+
+
     .column {
-      padding: 3rem;
       width: 50%;
     }
-  }
-
-
+  
 
   .footer-box {
     position: bottom;
