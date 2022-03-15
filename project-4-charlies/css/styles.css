@@ -109,21 +109,33 @@ body {
   img {
     max-width: 100%;
   }
-  
-  @media screen and (min-width: 800px) {
 
+  .two-column {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+  }
+
+
+  .three-column {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3rem;
+
+
+  }
+  
+  @media screen and (max-width: 800px) {
     .two-column {
-      display: flex;
-      flex-direction: row-reverse;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 3rem;
+      grid-template-columns: 1fr;
     }
   }
 
+  
     .map {
-      width: 50%;
-      position: left;
+      width: 75%;
     }
   
 
@@ -136,6 +148,10 @@ body {
     margin-bottom: 3rem;
   }
   
+.stay-in-touch {
+  margin-left: -2rem;
+}
+
   .box {
     padding: 1rem;
   }
