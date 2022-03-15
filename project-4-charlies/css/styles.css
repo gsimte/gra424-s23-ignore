@@ -149,7 +149,7 @@ body {
   }
   
 .stay-in-touch {
-  margin-left: -2rem;
+  margin-left: 0rem;
 }
 
   .box {
@@ -157,6 +157,6 @@ body {
   }
   
 i {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
