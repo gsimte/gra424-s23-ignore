@@ -20,7 +20,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 18pt;
-  margin-left: 4rem;
+  margin-left: 5rem;
 }
 
 
@@ -146,17 +146,34 @@ body {
     padding: 4rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    display: flex;
   }
   
-.stay-in-touch {
-  margin-left: 0rem;
-}
-
   .box {
     padding: 1rem;
   }
   
 i {
   padding: 1.5rem;
+  display: flex;
 }
 
+
+.menu-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panini {
+  padding: 3rem;
+}
+
+.stay-in-touch {
+    text-align: left;
+  }
