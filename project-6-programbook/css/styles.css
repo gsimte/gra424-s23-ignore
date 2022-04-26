@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Garamond', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    position: relative;
+    justify-content: center;
+  }
+
+  h2 {
+    font-family: 'Garamond', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    position: relative;
+    justify-content: center;
+  }
+  
+p {
+    font-family: 'Garamond', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    position: relative;
+    justify-content: center;  
+}
+
+a {
+    font-family: 'Garamond', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    position: relative;
+    justify-content: center;  
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 300px) {
+    .image-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    figure {
+      padding: .5rem;
+      width: 25%;
+    }
+    .big {
+      width: 25%;
+    }
+  }
