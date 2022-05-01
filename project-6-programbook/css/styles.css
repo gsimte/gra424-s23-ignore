@@ -1,12 +1,23 @@
 h1 {
     font-family: 'Garamond', sans-serif;
     font-weight: 300;
-    font-size: 18pt;
+    font-size: 12pt;
+    position: relative;
+    justify-content: left;
+    margin-bottom: 1rem;
+  }
+
+
+  h2 {
+    font-family: 'Garamond', sans-serif;
+    font-weight: 300;
+    font-size: 6pt;
     position: relative;
     justify-content: center;
   }
 
-  h2 {
+
+  h3 {
     font-family: 'Garamond', sans-serif;
     font-weight: 300;
     font-size: 18pt;
@@ -31,23 +42,47 @@ a {
 }
 
 
+header {
+  background-color: #fff;
+  border-bottom: 4px solid #fec89a;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
 
-* {
-    box-sizing: border-box;
+
+
+body {
+  margin-top: 5rem;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-container {
+  display: grid;
+}
+
+
+.home {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1280px;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  ..home {
+    grid-template-columns: 1fr;
   }
-  img {
-    max-width: 100%;
-  }
-  @media screen and (min-width: 300px) {
-    .image-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    figure {
-      padding: .5rem;
-      width: 25%;
-    }
-    .big {
-      width: 25%;
-    }
-  }
+}
