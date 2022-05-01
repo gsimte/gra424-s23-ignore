@@ -12,7 +12,7 @@ h1 {
   h2 {
     font-family: 'Garamond', sans-serif;
     font-weight: 800;
-    font-size: 20pt;
+    font-size: 22pt;
   }
 
 
@@ -22,6 +22,8 @@ h1 {
     font-size: 14pt;
     position: relative;
   }
+
+
   
 p {
     font-family: 'Garamond', sans-serif;
@@ -53,6 +55,8 @@ header {
   width: 100%;
   z-index: 100;
 }
+
+
 
 ul {
   list-style: none;
@@ -86,14 +90,16 @@ body {
   margin-top: 7rem;
 }
 
+
 img {
   max-width: 100%;
   max-height: 100%;
+  border: 1px solid #f4f4f4;
 }
 
 
-.img-container{
-  opacity:0.2;
+.img-container {
+  opacity:0.5;
   transition: 1s ease;
   }
   
@@ -118,3 +124,17 @@ img {
     gap: 2.5rem;
   }
 }
+
+
+
+.footer-box {
+  background-color: rgb(255, 255, 255);
+  border-top: 4px solid #fec89a;
+  color: black;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+
+
