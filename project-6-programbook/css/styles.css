@@ -1,35 +1,34 @@
 h1 {
     font-family: 'Garamond', sans-serif;
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 14pt;
     position: relative;
     justify-content: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
 
   h2 {
     font-family: 'Garamond', sans-serif;
-    font-weight: 300;
-    font-size: 12pt;
-    position: relative;
-    justify-content: center;
+    font-weight: 800;
+    font-size: 20pt;
   }
 
 
   h3 {
     font-family: 'Garamond', sans-serif;
-    font-weight: 800;
-    font-size: 18pt;
+    font-weight: 300;
+    font-size: 14pt;
     position: relative;
-    justify-content: center;
   }
   
 p {
     font-family: 'Garamond', sans-serif;
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 10pt;
     position: relative;
-    justify-content: center;  
+    justify-content: left; 
 }
 
 a {
@@ -37,14 +36,15 @@ a {
     font-weight: 300;
     font-size: 12pt;
     position: relative;
-    justify-content: center;  
+    justify-content: center;
+    color: inherit; 
+    text-decoration: none; 
 }
 
 
 header {
   background-color: #fff;
   border-bottom: 4px solid #fec89a;
-  display: flex;
   justify-content: space-between;
   padding: 1rem;
   position: fixed;
@@ -54,8 +54,36 @@ header {
   z-index: 100;
 }
 
+ul {
+  list-style: none;
+}
+
+.links {
+  display: flex;
+}
+
+.program {
+  margin-left: auto;
+  opacity:1;
+  transition: .25s ease;
+}
+
+
+
+  .program:hover {
+    opacity:0.2;
+    transition: .25s ease;
+  }
+
+
+.links li {
+  padding: 1rem;
+}
+
+
+
 body {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 img {
@@ -65,13 +93,13 @@ img {
 
 
 .img-container{
-  opacity:0.5;
+  opacity:0.2;
   transition: 1s ease;
   }
   
   .img-container:hover{
   opacity:1;
-  transition: 1s ease;
+  transition: .25s ease;
   }
 
 
@@ -87,6 +115,6 @@ img {
   .home-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 2.5rem;
   }
 }
